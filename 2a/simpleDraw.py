@@ -4,12 +4,11 @@ import turtle
 
 
 def draw_sq():
-	canv = turtule.Screen()
+	canv = turtle.Screen()
 	canv.bgcolor("blue")
 
 	# get a turtule
 	chuck = turtle.Turtle()
-	
 
 	# move it forward
 	chuck.forward(100)
