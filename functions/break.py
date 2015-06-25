@@ -3,7 +3,7 @@ import time
 
 
 # loop three times a day
-for i in 3:
+for i in range(0, 3):
 	# delay
 	time.sleep(10)
 	# open Janis Joplin song
