@@ -15,6 +15,7 @@ def draw_sq():
 	for i in range(0, 4):
 		chuck.forward(100)
 		chuck.right(90)
+		chuck.speed(1)
 
 	# close canvas on mouse click
 	canv.exitonclick()
