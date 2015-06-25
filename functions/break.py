@@ -1,3 +1,5 @@
+# it's a program that reminds the user to take a break
+
 import webbrowser
 import time
 
