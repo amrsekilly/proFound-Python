@@ -12,10 +12,16 @@ def draw_sq():
 
 	# move it forward
 	chuck.forward(100)
+	chuck.right(90)
+	chuck.forward(100)
+	chuck.right(90)
+	chuck.forward(100)
+	chuck.right(90)
+	chuck.forward(100)
+	chuck.right(90)
 	
 	# close canvas on mouse click
-	window.exitonclick()
-
+	canv.exitonclick()
 
 # call fn
 draw_sq()
