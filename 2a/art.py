@@ -40,8 +40,6 @@ def draw_art():
 	# close canvas on mouse click
 	canv.exitonclick()
 
-
-
 draw_art()
 
 
