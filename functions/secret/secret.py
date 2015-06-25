@@ -13,6 +13,7 @@ def rename_file():
 
 	# loop over all the files 
 	for fl in flist:
+		print "old name:", fl, "new name:", fl.translate(None, "0123456789")
 		os.rename(fl, fl.translate(None, "0123456789"))
 
 # call the fn
