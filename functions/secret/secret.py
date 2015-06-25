@@ -3,7 +3,7 @@
 import os
 
 def rename_file():
-	filelst = os.listdir("/Users/amr/Documents/pyFoundation/functions/secret")
+	filelst = os.listdir("/Users/amr/Documents/pyFoundation/functions/secret/prank")
 
 	# make sure it's working
 	print filelst
