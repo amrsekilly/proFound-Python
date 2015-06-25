@@ -10,6 +10,10 @@ def draw_sq():
 	# get a turtule
 	chuck = turtle.Turtle()
 
+	# get it some personality
+	chuck.shape("turtle")
+	chuck.color("brown")
+
 	# move it forward
 	chuck.forward(100)
 	chuck.right(90)
