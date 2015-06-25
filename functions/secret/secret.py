@@ -8,6 +8,12 @@ def rename_file():
 	# make sure it's working
 	print flist
 
+	# change the WD
+	os.chdir("/Users/amr/Documents/pyFoundation/functions/secret/prank")
+
+	# loop over all the files 
+	for fl in flist:
+		os.rename(fl, line.translate(None, "0123456789"))
 
 # call the fn
 rename_file()
