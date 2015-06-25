@@ -7,3 +7,7 @@ def rename_file():
 
 	# make sure it's working
 	print filelst
+
+
+# call the fn
+rename_file()
