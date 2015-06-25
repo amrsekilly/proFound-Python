@@ -5,7 +5,7 @@ import turtle
 
 def draw_sq():
 	canv = turtle.Screen()
-	canv.bgcolor("blue")
+	canv.bgcolor("white")
 
 	# get a turtule
 	chuck = turtle.Turtle()
